@@ -1,0 +1,13 @@
+hidl_interface {
+    name: "vendor.qti.hardware.bluetooth_audio@2.0",
+    root: "vendor.qti.hardware",
+    srcs: [
+        "types.hal",
+        "IBluetoothAudioPort.hal",
+    ],
+    interfaces: [
+        "android.hidl.base@1.0",
+    ],
+    gen_java: false,
+    vendor_available: true,
+}

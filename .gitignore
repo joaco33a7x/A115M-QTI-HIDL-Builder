@@ -1,0 +1,19 @@
+# Toolchains y descargas grandes
+.toolchains/
+.tools/
+third_party/prebuilts/
+third_party/aosp/
+
+# Archivos temporales
+*.zip
+*.log
+*.tmp
+/tmp/
+out/
+
+# Archivos del editor
+.vscode/
+.DS_Store
+
+# Código generado por hidl-gen/Soong
+generated/

@@ -1,0 +1,13 @@
+package vendor.qti.hardware.bluetooth_audio@2.0;
+
+enum Status : uint8_t {
+    SUCCESS = 0,
+    FAILURE = 1,
+    UNSUPPORTED_CODEC_CONFIGURATION = 2,
+    PENDING = 3,
+};
+
+struct TimeSpec {
+    uint64_t tvSec;
+    uint64_t tvNSec;
+};

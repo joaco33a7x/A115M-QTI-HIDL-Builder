@@ -1,0 +1,2 @@
+2f16633762e76c1746384343820c7384fece0ce9eacfb3f72b33b3a5c3c69d21 vendor.qti.hardware.bluetooth_audio@2.0::types
+cf2714530ae8821832e3a327c16d4d768744007f6fd49dea8766fd629c2ad8cd vendor.qti.hardware.bluetooth_audio@2.0::IBluetoothAudioPort

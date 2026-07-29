@@ -1,0 +1,5 @@
+Target device: Samsung A115M/M115F vendor
+Architecture: arm64
+Vendor VNDK: 29
+Reference AOSP tag: android-10.0.0_r47
+Do not approve binaries built only against VNDK 30.

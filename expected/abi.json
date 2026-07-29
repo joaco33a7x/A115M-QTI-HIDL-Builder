@@ -1,0 +1,20 @@
+{
+  "package": "vendor.qti.hardware.bluetooth_audio@2.0",
+  "interface": "IBluetoothAudioPort",
+  "zvt_size_bytes": 272,
+  "ztt_size_bytes": 32,
+  "primary_address_point_bytes": 24,
+  "secondary_address_point_bytes": 224,
+  "functional_slots": [
+    "startStream()",
+    "suspendStream()",
+    "stopStream()",
+    "getPresentationPosition(callback)",
+    "updateAptxMode(uint16_t)"
+  ],
+  "required_symbols": [
+    "_ZTVN6vendor3qti8hardware15bluetooth_audio4V2_019IBluetoothAudioPortE",
+    "_ZTTN6vendor3qti8hardware15bluetooth_audio4V2_019IBluetoothAudioPortE",
+    "_ZN6vendor3qti8hardware15bluetooth_audio4V2_019IBluetoothAudioPort14updateAptxModeEt"
+  ]
+}

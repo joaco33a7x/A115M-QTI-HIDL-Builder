@@ -1,0 +1,28 @@
+package vendor.qti.hardware.bluetooth_audio@2.0;
+
+/**
+ * Reconstructed QTI Bluetooth Audio port contract for the Samsung A115M
+ * vendor blobs.
+ *
+ * The first four methods match AOSP android.hardware.bluetooth.audio@2.0.
+ * The fifth QTI slot is updateAptxMode(uint16_t).
+ *
+ * Offline ABI generation and comparison only.
+ */
+interface IBluetoothAudioPort {
+    startStream();
+
+    suspendStream();
+
+    stopStream();
+
+    getPresentationPosition()
+        generates (
+            Status status,
+            uint64_t remoteDeviceAudioDelayNanos,
+            uint64_t transmittedOctets,
+            TimeSpec transmittedOctetsTimeStamp
+        );
+
+    updateAptxMode(uint16_t aptxMode);
+};
